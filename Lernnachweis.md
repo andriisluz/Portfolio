@@ -153,7 +153,7 @@ sondern zu diesem Zweig.
 
 ### 31. Erkläre den GitHub-Flow in einem kurzen Satz.
 
-**Meine Antwort:** DEINE ANTWORT
+**Meine Antwort:** GitHub flow hat nur 2 Branches: main und Feature. 
 
 ### 32. Ordne die Begriffe zu
 
