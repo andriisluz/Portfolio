@@ -185,7 +185,7 @@ Login Hooks Fehler mit unauthorisiertem Zugang zu Admin Console behebt.
 
 ### 37. Warum ist die Commit-Nachricht `update` wenig hilfreich?
 
-**Meine Antwort:** Wir wissen nicht genau was update
+**Meine Antwort:** Wir wissen nicht genau was update bedeutet. Man sollte schreiben was sich verändert hat. 
 
 ---
 
@@ -195,45 +195,67 @@ Login Hooks Fehler mit unauthorisiertem Zugang zu Admin Console behebt.
 
 Ergänze darunter eine Markdown-Überschrift der Ebene 1:
 
-DEINE ANTWORT
+# Titel
 
 ### 39. Ungeordnete Liste
 
 Erstelle eine Liste mit mindestens drei Begriffen aus dieser Lernsession:
 
-DEINE ANTWORT
+* Markdown
+* Merge
+* Branch
 
 ### 40. Link
 
 Erstelle einen funktionierenden Markdown-Link zu GitHub oder Microsoft Learn:
 
-DEINE ANTWORT
+[GitHub](https://github.com)
 
 ### 41. Bild
 
 Schreibe die Markdown-Syntax für ein Bild mit Alternativtext:
 
 ```text
-DEINE ANTWORT
+![Alternativtext](Link-zum-Bild)
 ```
 
 ### 42. Inline-Code
 
 Schreibe `git status` als Inline-Code in einem sinnvollen Satz:
 
-DEINE ANTWORT
+Der Befehl `git status` hilft uns zu sehen welche Dateien momentan verfolgt sind.
 
 ### 43. Codeblock
 
 Ergänze mindestens drei Git-Befehle in diesem Codeblock:
 
 ```bash
-# DEINE BEFEHLE
+git pull
+git branch --list
+git checkout feature
+git add ./src/*
+git commit -m "Fixed the burger menu blocking the view on mobile devices"
+git push
 ```
 
 ### 44. Was sollte ein gutes Portfolio-README mindestens leisten?
 
-**Meine Antwort:** DEINE ANTWORT
+**Meine Antwort:** Wenn es ein Projekt mit Code ist soll es solche Struktur haben:
+```
+# Titel
+
+![Screenshot](...)
+
+Funktionalität:
+- Erstens
+- Zweitens
+- Drittens
+
+Was habe ich gelernt:
+- Erstens
+- Zweitens
+- Drittens
+```
 
 ---
 
@@ -241,27 +263,27 @@ Ergänze mindestens drei Git-Befehle in diesem Codeblock:
 
 ### Was habe ich heute über Git und GitHub gelernt?
 
-DEINE ANTWORT
+Ich habe gelernt wie man mit Issues praktisch umgeht.
 
 ### Was habe ich heute praktisch umgesetzt?
 
-DEINE ANTWORT
+Ich habe eine Issue erstellt, Kommentare hinzugefügt, einen separaten Zweig erstellt, pullte das Repo, machte die Änderung, committete, pushte, erstellte einen Pull Reqest, führte die Zweige zusammen. 
 
 ### Meine konkrete Verbesserung aus dem Selbst- oder Peer-Check
 
-DEINE ANTWORT
+Ich wusste den Algorhythm von wie man die Issues bearbeitet. Jetzt weiss ich ihn.
 
 ### Mein nächster Portfolio-Schritt
 
-DEINE ANTWORT
+Nächste Lernsession bearbeiten und auf GitHub ein Repo mit Lernnachweisen erstellen.
 
 ---
 
 ## 7 · Microsoft Learn · Abschlusskontrolle
 
-- [ ] **Einführung in GitHub**: Übung, Modulbewertung und Zusammenfassung abgeschlossen
-- [ ] **Effektive Kommunikation auf GitHub mithilfe von Markdown** abgeschlossen
-- [ ] Ich habe meinen Lernfortschritt / meine Modulbewertung kontrolliert.
+- [x] **Einführung in GitHub**: Übung, Modulbewertung und Zusammenfassung abgeschlossen
+- [x] **Effektive Kommunikation auf GitHub mithilfe von Markdown** abgeschlossen
+- [x] Ich habe meinen Lernfortschritt / meine Modulbewertung kontrolliert.
 
 ## 8 · Begriffe · deutsche Merkhilfe
 
@@ -269,32 +291,32 @@ Fülle die zweite Spalte mit einer kurzen deutschen Merkhilfe aus.
 
 | Begriff | Deutsche Merkhilfe |
 |---|---|
-| Issue | DEINE ANTWORT |
-| Branch | DEINE ANTWORT |
-| Commit | DEINE ANTWORT |
-| Push | DEINE ANTWORT |
-| Pull | DEINE ANTWORT |
-| Pull Request | DEINE ANTWORT |
-| Review | DEINE ANTWORT |
-| Merge | DEINE ANTWORT |
-| Clone | DEINE ANTWORT |
-| Repository | DEINE ANTWORT |
+| Issue | Problem |
+| Branch | Zweig |
+| Commit | Schnappschuss |
+| Push | hochladen |
+| Pull | herunterladen |
+| Pull Request | Anforderung um Zusammenführung |
+| Review | Überprüfung |
+| Merge | Zusammenführung |
+| Clone | kopieren |
+| Repository | Verzeichnis |
 
 ---
 
 ## 9 · Selbstcheck
 
-- [ ] Ich kann **Git** und **GitHub** unterscheiden.
-- [ ] Ich kann **Issue → Branch → Commit → Pull Request → Merge** erklären.
-- [ ] Ich kenne den Unterschied zwischen **Commit** und **Push**.
-- [ ] Ich kenne den Unterschied zwischen **Pull** und **Pull Request**.
-- [ ] Ich kann Überschriften, Listen, Links, Bilder und Codeblöcke in Markdown verwenden.
-- [ ] Mein README wird auf GitHub korrekt gerendert.
-- [ ] Ich habe mindestens eine konkrete Verbesserung umgesetzt.
-- [ ] Ich habe meine Änderung mit einer aussagekräftigen Commit-Nachricht dokumentiert.
+- [x] Ich kann **Git** und **GitHub** unterscheiden.
+- [x] Ich kann **Issue → Branch → Commit → Pull Request → Merge** erklären.
+- [x] Ich kenne den Unterschied zwischen **Commit** und **Push**.
+- [x] Ich kenne den Unterschied zwischen **Pull** und **Pull Request**.
+- [x] Ich kann Überschriften, Listen, Links, Bilder und Codeblöcke in Markdown verwenden.
+- [x] Mein README wird auf GitHub korrekt gerendert.
+- [x] Ich habe mindestens eine konkrete Verbesserung umgesetzt.
+- [x] Ich habe meine Änderung mit einer aussagekräftigen Commit-Nachricht dokumentiert.
 
 ## Meine Commit-Nachricht für diese Abgabe
 
 ```text
-DEINE COMMIT-NACHRICHT
+Das Quiz fertig ausgefüllt.
 ```
