@@ -159,33 +159,33 @@ sondern zu diesem Zweig.
 
 | Bedeutung | Git-/GitHub-Begriff |
 |---|---|
-| Aufgabe | DEINE ANTWORT |
-| Arbeitszweig | DEINE ANTWORT |
-| Speicherpunkt | DEINE ANTWORT |
-| Änderungsantrag | DEINE ANTWORT |
-| Zusammenführen | DEINE ANTWORT |
+| Aufgabe | Task |
+| Arbeitszweig | Branch |
+| Speicherpunkt | Commit |
+| Änderungsantrag | Diffs |
+| Zusammenführen | Merge |
 
 ### 33. Welche Richtung beschreibt Push?
 
-**Meine Antwort:** DEINE ANTWORT
+**Meine Antwort:** Git -> GitHub
 
 ### 34. Welche Richtung beschreibt Pull?
 
-**Meine Antwort:** DEINE ANTWORT
+**Meine Antwort:** GitHub -> Git
 
 ### 35. Warum sind mehrere sinnvolle Commits oft besser als ein einziger riesiger Commit?
 
-**Meine Antwort:** DEINE ANTWORT
+**Meine Antwort:** So kann man einen fehlerhaften Commit finden und zurückzurollen, ohne dass man die guten Änderungen löscht.
 
 ### 36. Nenne ein Beispiel für eine gute Commit-Nachricht.
 
 ```text
-DEINE COMMIT-NACHRICHT
+Login Hooks Fehler mit unauthorisiertem Zugang zu Admin Console behebt.
 ```
 
 ### 37. Warum ist die Commit-Nachricht `update` wenig hilfreich?
 
-**Meine Antwort:** DEINE ANTWORT
+**Meine Antwort:** Wir wissen nicht genau was update
 
 ---
 
