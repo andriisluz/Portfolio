@@ -1,4 +1,4 @@
-// Ausgabe
+﻿// Ausgabe
 Console.WriteLine("Wilkommen zum Mensa Rechner");
 Console.WriteLine("___________________________");
 

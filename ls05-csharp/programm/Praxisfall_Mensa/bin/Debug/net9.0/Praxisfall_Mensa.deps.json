@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Praxisfall_Mensa/1.0.0": {
+        "runtime": {
+          "Praxisfall_Mensa.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Praxisfall_Mensa/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

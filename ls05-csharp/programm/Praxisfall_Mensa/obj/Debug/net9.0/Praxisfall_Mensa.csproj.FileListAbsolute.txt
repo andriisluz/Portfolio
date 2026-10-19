@@ -1,0 +1,15 @@
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\bin\Debug\net9.0\Praxisfall_Mensa.exe
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\bin\Debug\net9.0\Praxisfall_Mensa.deps.json
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\bin\Debug\net9.0\Praxisfall_Mensa.runtimeconfig.json
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\bin\Debug\net9.0\Praxisfall_Mensa.dll
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\bin\Debug\net9.0\Praxisfall_Mensa.pdb
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\obj\Debug\net9.0\Praxisfall_Mensa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\obj\Debug\net9.0\Praxisfall_Mensa.AssemblyInfoInputs.cache
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\obj\Debug\net9.0\Praxisfall_Mensa.AssemblyInfo.cs
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\obj\Debug\net9.0\Praxisfall_Mensa.csproj.CoreCompileInputs.cache
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\obj\Debug\net9.0\Praxisfall_Mensa.sourcelink.json
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\obj\Debug\net9.0\Praxisfall_Mensa.dll
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\obj\Debug\net9.0\refint\Praxisfall_Mensa.dll
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\obj\Debug\net9.0\Praxisfall_Mensa.pdb
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\obj\Debug\net9.0\Praxisfall_Mensa.genruntimeconfig.cache
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls05-csharp\programm\Praxisfall_Mensa\obj\Debug\net9.0\ref\Praxisfall_Mensa.dll
