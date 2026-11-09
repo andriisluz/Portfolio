@@ -2,14 +2,22 @@
 
 ## Lernsession 1
 
-Wichtige kommanden:
+Wichtige git kommanden:
 
 ``` bash
-
+# Zweigen
 git init -b main # Repo erstellen
+git switch -c <branchname> # create branch
+git switch <branchname> # switch to branch
+git branch # list branches
+git branch -d <branchname> # delete branch
+# Änderungen
 git add . # Alle Dateien zum Staging Area einfügen
 git status # Prüfen, ob die Dateien verfolgt sind
 git commit -m "..." # Einen Schnappschuss des Repo erstellen
+# Remote Repo Anschluss
+git push
+git pull
 ```
 
 ## Lersession 2
@@ -87,4 +95,7 @@ Dann erstellt man Testfälle, um sicherzustellen ob der Programm richtig funktio
 | 2 | Name: Cola, Preis: 2.30, Menge: 1| Eie Zeile mit "Cola, 1 Stück - 2.30CHF" | Cola, 1 Stück - 2.30CHF | Ja |
 | 3 | Name: Keks, Preis: 1.00, Menge: 3| Eie Zeile mit "Brot, 3 Stück - 3CHF" | Brot, 3 Stück - 3CHF | Ja |
 
-![Das Progarmmablaufdiagramm](<img/Screenshot 2026-10-12 105103.png>)
+![Das Progarmmablaufdiagramm](<img/PAP LS 5.png>)
+
+## Lernsession 6
+

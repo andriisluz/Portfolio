@@ -1,0 +1,15 @@
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\bin\Debug\net9.0\MensaLS6Erweiterung.exe
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\bin\Debug\net9.0\MensaLS6Erweiterung.deps.json
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\bin\Debug\net9.0\MensaLS6Erweiterung.runtimeconfig.json
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\bin\Debug\net9.0\MensaLS6Erweiterung.dll
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\bin\Debug\net9.0\MensaLS6Erweiterung.pdb
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\obj\Debug\net9.0\MensaLS6Erweiterung.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\obj\Debug\net9.0\MensaLS6Erweiterung.AssemblyInfoInputs.cache
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\obj\Debug\net9.0\MensaLS6Erweiterung.AssemblyInfo.cs
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\obj\Debug\net9.0\MensaLS6Erweiterung.csproj.CoreCompileInputs.cache
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\obj\Debug\net9.0\MensaLS6Erweiterung.sourcelink.json
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\obj\Debug\net9.0\MensaLS6Erweiterung.dll
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\obj\Debug\net9.0\refint\MensaLS6Erweiterung.dll
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\obj\Debug\net9.0\MensaLS6Erweiterung.pdb
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\obj\Debug\net9.0\MensaLS6Erweiterung.genruntimeconfig.cache
+C:\Users\ZBA_Stud2025\Documents\IMS 1. Sem\IPT-1\Portfolio\ls06-csharp\MensaLS6Erweiterung\obj\Debug\net9.0\ref\MensaLS6Erweiterung.dll

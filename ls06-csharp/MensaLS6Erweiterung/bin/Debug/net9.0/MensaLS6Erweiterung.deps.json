@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "Praxisfall_Mensa/1.0.0": {
+      "MensaLS6Erweiterung/1.0.0": {
         "runtime": {
-          "Praxisfall_Mensa.dll": {}
+          "MensaLS6Erweiterung.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Praxisfall_Mensa/1.0.0": {
+    "MensaLS6Erweiterung/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
