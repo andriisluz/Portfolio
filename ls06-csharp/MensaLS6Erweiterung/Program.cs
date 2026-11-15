@@ -100,9 +100,54 @@ while (true)
         discountPercent = 20.0m; // 20% Rabatt
     }
 
-    // Ausgabe + Verarbeitung
+    int paymentMethod;
+    while(true) {
+        Console.WriteLine("Zahlungsmöglichkeiten: ");
+        Console.WriteLine("1. Bar\n2. Karte\n3. TWINT\n");
+        Console.Write(": ");
+        string ?paymentMethodStr = Console.ReadLine();
+        if (paymentMethodStr == null)
+        {
+            Console.WriteLine("Please, input something.");
+        }
+        try
+        {
+            paymentMethod = Convert.ToInt32(paymentMethodStr);
+        } catch (FormatException)
+        {
+            Console.WriteLine("Please, input numbers only.");
+            continue;
+        } catch (OverflowException)
+        {
+            Console.WriteLine("Input too big.");
+            continue;
+        }
+        if (paymentMethod < 1 || paymentMethod > 3)
+        {
+            Console.WriteLine("Please, input only number out of the list above.");
+            continue;
+        }
+        break;
+
+    }
+
     Console.WriteLine("-----------Beleg-----------");
     Console.WriteLine("Zwischentotal:\t\t" + subtotal.ToString("F2") + " CHF");
     Console.WriteLine("Rabatt:\t\t\t" + discountPercent.ToString("F2") + "%");
     Console.WriteLine("Endtotal:\t\t" + (subtotal*(100.0m - discountPercent)/100.0m).ToString("F2") + " CHF\n\n");
+
+    switch (paymentMethod)
+    {
+        case(1):
+            Console.WriteLine("Zahlungsart: Bar");
+            break;
+        case(2):
+            Console.WriteLine("Zahlungsart: Karte");
+            break;
+        case(3):
+            Console.WriteLine("Zahlungsart: TWINT");
+            break;
+    }
+    Console.WriteLine("---------------------------");
+
 }

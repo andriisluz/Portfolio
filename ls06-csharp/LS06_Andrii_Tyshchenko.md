@@ -267,15 +267,15 @@ Immer 2 Stellen nach dem Punkt schreiben: **5.00**, nicht 5.
 Benutzt die Satzanfänge.
 
 1. Welche Frage verhindert, dass bei Menge 0 gerechnet wird?
-   > Die Frage «…» verhindert das, weil …
+   > Die Frage «menge < 1» verhindert das, weil …
 2. In welcher Reihenfolge fragt ihr nach dem Rabatt? Warum?
-   > Wir fragen zuerst …, dann …, weil …
+   > Wir fragen zuerst nach Menge <= 2, dann Menge <= 4, weil wenn wir umgekehrt fragen, wird der Rabatt immer 10%.
 3. Was passiert mit Menge 5, wenn ihr die Reihenfolge umdreht?
-   > Wenn wir die Reihenfolge umdrehen, bekommt Menge 5 …, weil …
+   > Wenn wir die Reihenfolge umdrehen, bekommt Menge 5 20% Rabatt, weil 5 > 2 und 5 > 4 ist.
 4. Wann gilt 20 % Rabatt? Wann 10 %? Wann 0 %?
-   > 20 % gilt, wenn … · 10 % gilt, wenn … · 0 % gilt, wenn …
+   > 20 % gilt, wenn Menge mehr als 5 ist · 10 % gilt, wenn Menge 3 oder 4 ist · 0 % gilt, wenn Menge 1 oder 2 ist.
 5. Wo im PAP werden Rabattbetrag und Endtotal berechnet?
-   > Rabattbetrag und Endtotal werden berechnet, nachdem …
+   > Rabattbetrag und Endtotal werden berechnet, nachdem wir die Menge gepfüft haben.
 
 🔁 **Checkpoint 2:** Fahrt mit dem Finger durch den PAP: Menge 0, 2, 3 und 5. Kommt jede Menge zum richtigen Ergebnis?
 
@@ -372,6 +372,10 @@ Console.WriteLine("Bewertung: " + bewertung);
 | `==` | gleich (vergleichen) |
 | `=` | Wert speichern (nicht vergleichen!) |
 
+**Programmcode**:
+
+[Praxisfall Mensa Erweiterung (.cs Datei)](MensaLS6Erweiterung/Program.cs)
+
 ✅ **Fertig, wenn:** Das Programm startet, Menge 0 eine Fehlermeldung zeigt und Menge 3 und 5 einen Beleg mit Rabatt zeigen.
 
 🆘 **Häufige Fehler:**
@@ -424,9 +428,9 @@ Hattest du einen Fehler? Schreibe auf, was falsch war:
 
 1. Tauscht die Laptops mit diesem Team: **A ↔ B · C ↔ D · E ↔ F · G ↔ H**
 2. Testet die Kasse des anderen Teams:
-   - [ ] Menge 2, 3 und 5
-   - [ ] Menge 0
-   - [ ] einen Grenzwert, den ihr wählt
+   - [x] Menge 2, 3 und 5
+   - [x] Menge 0
+   - [x] einen Grenzwert, den ihr wählt
 3. Stellt dem anderen Team diese drei Fragen:
    - «Zeigt uns im PAP: Welche Raute ist welches `if` im Code?»
    - «Warum bekommt Menge 5 nicht nur 10 %?»
@@ -490,17 +494,17 @@ git push
 
 **Zeit:** 10 Min. · 👤 allein · Schreibe in ganzen Sätzen. Benutze die Satzanfänge.
 
-**Name:** ……………… **Partner/in:** ………………
+**Name:** Andrii **Partner/in:** Alisa
 
 ### 1 · Das habe ich heute gelernt
 
-> Eine `if` / `else if` / `else`-Kette macht … Das Programm prüft … Wenn eine Frage «Ja» ist, dann …
+> Eine `if` / `else if` / `else`-Kette macht eine Überprüfung. Das Programm prüft ob die Bedingung in Klammern Wahr ist. Wenn eine Frage «Ja» ist, dann wird der Block ausgeführt, sonst wird es übersprungen.
 
 ### 2 · Erkläre es einer Person, die heute gefehlt hat
 
 Warum bekommt Menge 5 in deinem Programm 20 % und nicht nur 10 %?
 
-> Menge 5 bekommt 20 %, weil …
+> Menge 5 bekommt 20 %, weil erste und zweite Bedingung im PAP nicht wahr werden. Somit wird die letzte Instruktion mit 20% Rabatt verwendet.
 
 ### 3 · Wie gut kann ich das?
 
@@ -508,31 +512,31 @@ Warum bekommt Menge 5 in deinem Programm 20 % und nicht nur 10 %?
 
 | Ich kann … | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|
-| … die Rabatt-Regeln in eine Tabelle schreiben | ☐ | ☐ | ☐ | ☐ |
-| … einen PAP mit Rauten zeichnen | ☐ | ☐ | ☐ | ☐ |
-| … `if` / `else if` / `else` in C# schreiben | ☐ | ☐ | ☐ | ☐ |
-| … Rabattbetrag und Endtotal mit `decimal` berechnen | ☐ | ☐ | ☐ | ☐ |
-| … Grenzwerte testen und SOLL / IST vergleichen | ☐ | ☐ | ☐ | ☐ |
+| … die Rabatt-Regeln in eine Tabelle schreiben | ☐ | ☐ | ☐ | [x] |
+| … einen PAP mit Rauten zeichnen | ☐ | ☐ | ☐ | [x] |
+| … `if` / `else if` / `else` in C# schreiben | ☐ | ☐ | ☐ | [x] |
+| … Rabattbetrag und Endtotal mit `decimal` berechnen | ☐ | ☐ | ☐ | [x] |
+| … Grenzwerte testen und SOLL / IST vergleichen | ☐ | ☐ | ☐ | [x] |
 
 ### 4 · Das war schwierig
 
-> Schwierig war für mich … Ich habe es so gelöst: … / Ich brauche noch Hilfe bei …
+> Sofern keine schwierigkeiten.
 
 ### 5 · Zusammenarbeit
 
-> In unserem Team hat gut funktioniert, dass … Nächstes Mal machen wir anders: …
+> In unserem Team hat gut funktioniert, dass wir alles überprüft haben Nächstes Mal machen wir gleich so.
 
 ### 6 · Blick nach vorne (LS7)
 
 Was passiert, wenn jemand bei der Menge «drei» tippt statt «3»? Wie kann man das lösen?
 
-> Wenn jemand «drei» tippt, dann … Man könnte …
+> Wenn jemand «drei» tippt, dann wird es eine Fehlermeldung ausgeben. Man könnte dem Benutzer mitteilen, dass er nur numerische Werten eingeben soll.
 
 ### 7 · Mein Yogi-Tee-Spruch und mein Wunsch vom Morgen
 
-> Mein Spruch war: …  
-> Mein Wunsch war: …  
-> Mein Wunsch wurde ☐ erfüllt ☐ teilweise erfüllt ☐ nicht erfüllt, weil …
+> Mein Spruch war: "Ein guter Entwickler kopiert. Ein exzellenter Entwickler stiehlt".
+> Mein Wunsch war: Diese Lernsession zu beenden.
+> Mein Wunsch wurde [x] erfüllt ☐ teilweise erfüllt ☐ nicht erfüllt, weil ich habe es geschafft.
 
 ✅ **Fertig, wenn:** Alle 7 Punkte sind ausgefüllt, und die Datei ist in Teams abgegeben.
 
