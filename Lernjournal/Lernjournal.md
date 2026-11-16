@@ -108,6 +108,8 @@ Während dem Testen, ob ```.gitignore``` funktioniert, habe ich den Befehl unten
 ``` bash
 git add . # alle Dateien, ausser die Dateien im .gitignore zur Staging-Area hinzufügen
 git status --ignored # anschauen welche Dateien nicht verfolgt werden
+git rm --cached <datei> # wenn git eine Datei oder Ordner verfolgt, wird die .gitignore keine Auswirkung auf es haben. Wir müssen es zuerst manuell stoppen zu verfolgen. 
+git rm --cached -r <ordner> # 
 git reset HEAD^ # zurück im Commit-history gehen, ohne dass der Arbeitsordner geändert wird
 ```
 
