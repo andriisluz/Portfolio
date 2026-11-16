@@ -132,9 +132,13 @@ while (true)
     }
 
     Console.WriteLine("-----------Beleg-----------");
-    Console.WriteLine("Zwischentotal:\t\t" + subtotal.ToString("F2") + " CHF");
-    Console.WriteLine("Rabatt:\t\t\t" + discountPercent.ToString("F2") + "%");
-    Console.WriteLine("Endtotal:\t\t" + (subtotal*(100.0m - discountPercent)/100.0m).ToString("F2") + " CHF\n\n");
+    Console.WriteLine("Zwischentotal: " + subtotal.ToString("F2") + " CHF");
+    Console.WriteLine("Menge:         " + productAmount);
+    if (discountPercent != 0)
+    {
+        Console.WriteLine("Rabatt:        " + discountPercent.ToString("F2") + "%");
+    }
+    Console.WriteLine("Endtotal:      " + (subtotal*(100.0m - discountPercent)/100.0m).ToString("F2") + " CHF\n\n");
 
     switch (paymentMethod)
     {

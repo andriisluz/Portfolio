@@ -99,3 +99,15 @@ Dann erstellt man Testfälle, um sicherzustellen ob der Programm richtig funktio
 
 ## Lernsession 6
 
+Während der Programmierung des C# Projekts habe ich bemerkt, dass alle /bin und /obj Ordner verfolgt werden.
+
+Die Benutzer auf GitHub brauchen diese Ordner nicht. Also, habe ich die ```.gitignore``` Datei im Wurzel des Projektes erstellt, um dies zu vermeiden.
+
+Während dem Testen, ob ```.gitignore``` funktioniert, habe ich den Befehl unten benutzt.
+
+``` bash
+git add . # alle Dateien, ausser die Dateien im .gitignore zur Staging-Area hinzufügen
+git status --ignored # anschauen welche Dateien nicht verfolgt werden
+git reset HEAD^ # zurück im Commit-history gehen, ohne dass der Arbeitsordner geändert wird
+```
+

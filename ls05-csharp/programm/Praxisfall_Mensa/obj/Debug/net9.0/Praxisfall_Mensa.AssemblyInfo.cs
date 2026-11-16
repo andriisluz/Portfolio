@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Praxisfall_Mensa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c555378f84a7bb807e64104c13e89ec63cc4476b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f16218faf8f0049c4d03cd80a3de1a67b15af6a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Praxisfall_Mensa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Praxisfall_Mensa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
